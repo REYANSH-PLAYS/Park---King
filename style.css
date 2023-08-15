@@ -1,0 +1,42 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+}
+
+/* Style the "Book Now" and "Next" buttons */
+.book-button, .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Style the drop-down boxes */
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: white;
+    color: green;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Apply additional styling for body, h2, and other elements if needed */
